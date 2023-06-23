@@ -1,0 +1,44 @@
+body {
+  background-image: url('fondo-tabla.jpg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  img {
+    height: 15rem;  
+    width: 13rem;
+  }
+
+.pizza1{
+  position: relative;
+  top: 28vh; 
+  left: 30vw;
+  transform: rotate(-60deg);
+}
+.pizza2{
+  position: relative;
+  top: 18vh; 
+  left: 22vw;
+}
+.pizza3{
+  position: relative;
+  top: 27vh; 
+  left: 14vw;
+  transform: rotate(60deg);
+}
+.pizza4{
+  position: relative;
+  top: 10vh; 
+  left: 30vw;
+  transform: rotate(60deg);
+}
+.pizza5{
+  position: relative;
+  top: 20vh; 
+  left: 22vw;
+}
+.pizza6{
+  position: relative;
+  top: 11vh; 
+  left: 14vw;
+  transform: rotate(-60deg);
+}

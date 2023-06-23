@@ -1,0 +1,41 @@
+.Contenedor {
+    background-image:url('fondo-flex.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    border: 1px solid slateblue ;
+}
+.Amarillo{
+    order: 2;
+    align-self: center;
+    margin-bottom: 7rem;
+}
+  
+.Chiquitos{
+   order: 1;
+   align-self: flex-end;
+   margin-bottom: 10rem;
+
+}
+.Medita{
+   order: 4;
+   align-self: center;
+   margin-bottom: 10rem;
+}
+.Negro{
+   order: 3;
+   align-self: flex-end;
+   margin-bottom: 2rem;
+}
+.Rojo{
+   order: 5;
+   align-self: flex-end;
+   margin-bottom: 8rem;
+}
