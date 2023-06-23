@@ -1,4 +1,5 @@
 import 'dotenv/config.js' //configurar las variables de entorno
+import "./config/db.js" // configurar la conexion con la base de datos
 import express from 'express';//para levantar y confirmar un servdidor
 import path from 'path';//conocer la ubicacion de nuestro servidor
 
