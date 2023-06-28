@@ -1,7 +1,7 @@
 import Category from "../Category.js"
-import 'dotenv/config.js'
-import '../../config/db.js'
-import User from '../User.js'
+import User from "../User.js"
+import "dotenv/config.js"
+import "../../config/db.js"
 
 let categories = [
     {

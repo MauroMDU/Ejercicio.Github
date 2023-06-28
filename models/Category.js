@@ -1,6 +1,7 @@
 import {Schema, model, Types} from "mongoose"
 
-let colecction = "categories"
+
+let collection = "categories"
 let schema = new Schema({
     name:{type:String, require:true},
     color:{type:String, require:true},
@@ -13,5 +14,5 @@ let schema = new Schema({
     timestamps:true
 })
 
-const Category = model(colecction, schema)
+const Category = model(collection, schema)
 export default Category

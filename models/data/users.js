@@ -1,6 +1,6 @@
-import User from '../User.js'
-import 'dotenv/config.js'
-import '../../config/db.js'
+import User from "../User.js"
+import "dotenv/config.js"
+import "../../config/db.js"
 
 let users = [{
     email: "lucas@mh.com.ar",
@@ -45,4 +45,4 @@ let users = [{
 }]
 
 User.insertMany(users)
-//el método insertMnay requiere que le pase un array con los datos a insertar en Mongo
+//el metodo insertMany requiere que le pase un array con los datos a insertar en Mongo
