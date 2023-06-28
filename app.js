@@ -17,6 +17,7 @@ app.set('views', path.join(__dirname, 'views')); //configuro que las vistas gene
 app.set('view engine', 'ejs');//configuro que las vistas se van a definir con el lenguaje de EJS  
 
 //Middlewares
+app.use(cors())                                           //obliga al servidor a permitir el cruce de origines de front/back
 //son funciones que se ejecutan con cada peticion y que van a permitir / Permitir realizar algo
 //es un metodo que obliga (en este caso) a mi aplicacion a usar algo (ejecutar una funcion)
 app.use(logger('dev'));//Obliga al servedor a usar el middlewares de registro de peticiones
@@ -26,7 +27,6 @@ app.use(express.static(path.join(__dirname, 'public')));// obliga al servidor a 
 
 //endpoints
 app.use('/api', indexRouter);//obligo al servidor a usar las rutas definidas en el enrutador principal con la palabrita '/api'
-app.use(cors())                                           //obliga al servidor a permitir el cruce de origines de front/back
 
 
 export default app
